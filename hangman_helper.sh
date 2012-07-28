@@ -8,7 +8,6 @@ if [ "$1" = "-a" ]
 then
     always=true
     shift
-    echo "Hit Ctrl-C to exit the program"
 fi
 
 [ -n "$1" -a -f "$1" ] && words="$1"
